@@ -18,7 +18,7 @@ const App = () => {
     }
     return(
       <div className="App">
-        <h1>Lyrics Finder 🎵</h1>
+        <h1>EchoVerse 🎵</h1>
       <div id="inp">
         <input className="input" 
                type="text" 
