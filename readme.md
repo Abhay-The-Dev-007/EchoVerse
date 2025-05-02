@@ -1,51 +1,64 @@
-🎵 Lyrics Finder
+# 🎵 EchoVerse 🎵
 
-A sleek and responsive lyrics finder website built with React. Easily search for song lyrics and get instant results!
+EchoVerse is a simple responsive and clean lyrics finder web app built using **React**. It allows users to search for song lyrics by entering the artist name and song title. It fetches lyrics from the [api.lyrics.ovh](https://lyrics.ovh/) API using **Axios** and displays them in an easy-to-read format.
 
+---
 
-🚀 Features
+## 🚀 Features
 
-🔍 Search for song lyrics instantly
+- 🎤 Search lyrics by Artist and Song name
+- 📄 Displays lyrics fetched from an open API
+- 💡 Simple, clean, and colorful UI with gradient background
+- ⚡ Built using React and Axios
 
-🎼 Clean and user-friendly interface
+---
 
-⚡ Fast and responsive performance
+## 🛠️ Tech Stack
 
+- **React**
+- **Axios**
+- **ReactDOM**
+- **api.lyrics.ovh** (Lyrics API)
 
-🛠️ Technologies Used
+---
 
-React.js
+## 🔍 Usage
 
-Axios (for API requests)
+1. Enter the artist's name in the first input field.
+2. Enter the song name in the second input field.
+3. Click the Search button.
+4. Lyrics will be fetched from https://api.lyrics.ovh/v1/{artist}/{title} and displayed below the search bar.
 
-CSS (for styling)
+---
 
+## 🔗 API Reference
 
-📦 Installation
+> Base URL: https://api.lyrics.ovh/v1/
+> Example: https://api.lyrics.ovh/v1/Coldplay/Yellow
 
-Clone the repository:
+---
 
-git clone https://github.com/your-username/lyrics-finder.git
-cd lyrics-finder
+## 🧪 Example
 
-Install dependencies:
+-> Artist: Alan Walker
+-> Song: Faded
+Returns lyrics for the song Yellow by Coldplay.
 
-npm install
+---
 
-Start the development server:
+## 📸 Screenshot
 
-npm start
+![Home](screenshots/home.png)
+![Result](screenshots/result.png)
 
+---
 
-📌 Usage
+## 🙌 Acknowledgements
 
-Enter the song name in the search bar.
+Thanks to Lyrics.ovh for the free lyrics API.
 
-Click on the search button.
+---
 
-View the lyrics instantly!
+## 📃 License
+This project is licensed under the MIT License.
 
-
-📜 License
-
-This project is open-source and available under the MIT License.
