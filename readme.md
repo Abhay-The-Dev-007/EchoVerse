@@ -19,6 +19,7 @@ EchoVerse is a simple responsive and clean lyrics finder web app built using **R
 - **Axios**
 - **ReactDOM**
 - **api.lyrics.ovh** (Lyrics API)
+- **CSS**
 
 ---
 
